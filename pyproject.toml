@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ean13-labels"
+version = "0.1.0"
+description = "Generate correct EAN-13 barcodes as SVG, PNG and print-ready PDF label sheets."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["Pillow>=9.0", "reportlab>=4.0"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.optional-dependencies]
+scan = ["zxing-cpp"]
+dev = ["pytest", "zxing-cpp"]
+
+[project.scripts]
+ean13 = "ean13_tools.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ean13_tools = ["fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
