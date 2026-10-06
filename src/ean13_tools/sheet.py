@@ -127,7 +127,10 @@ def resolve_layout(layout="a4-3x8", *, page=None, label=None, cols=None, rows=No
             raise LayoutError("cols and rows must be at least 1")
         mx = (page[0] - int(cols) * label[0] - (int(cols) - 1) * gp[0]) / 2
         my = (page[1] - int(rows) * label[1] - (int(rows) - 1) * gp[1]) / 2
-        lay = Layout(page, label, int(cols), int(rows), (my, mx, my, mx), gp)  # centred unless margins given
+        if mx < -1e-6 or my < -1e-6:
+            raise LayoutError("the %dx%d grid of %gx%g mm labels does not fit the %gx%g mm page"
+                              % (int(cols), int(rows), *label, *page))
+        lay = Layout(page, label, int(cols), int(rows), (max(my, 0), max(mx, 0), max(my, 0), max(mx, 0)), gp)
     else:
         if layout not in PRESETS:
             raise LayoutError("unknown layout %r (choose from %s)" % (layout, ", ".join(PRESETS)))
