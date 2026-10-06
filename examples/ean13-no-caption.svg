@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="37.29mm" height="26.095mm" viewBox="0 0 37.29 26.095">
+<title>EAN-13 5901234123457</title>
+<rect x="0" y="0" width="37.29" height="26.095" fill="#fff"/>
+<g id="bars" fill="#000" shape-rendering="crispEdges">
+<rect x="3.63" y="0" width="0.33" height="24.5"/>
+<rect x="4.29" y="0" width="0.33" height="24.5"/>
+<rect x="5.61" y="0" width="0.33" height="22.85"/>
+<rect x="6.27" y="0" width="0.66" height="22.85"/>
+<rect x="7.26" y="0" width="0.33" height="22.85"/>
+<rect x="8.25" y="0" width="0.99" height="22.85"/>
+<rect x="9.57" y="0" width="0.66" height="22.85"/>
+<rect x="10.89" y="0" width="0.66" height="22.85"/>
+<rect x="12.21" y="0" width="0.33" height="22.85"/>
+<rect x="13.2" y="0" width="0.66" height="22.85"/>
+<rect x="14.19" y="0" width="1.32" height="22.85"/>
+<rect x="15.84" y="0" width="0.33" height="22.85"/>
+<rect x="16.83" y="0" width="0.99" height="22.85"/>
+<rect x="18.15" y="0" width="0.33" height="22.85"/>
+<rect x="18.81" y="0" width="0.33" height="24.5"/>
+<rect x="19.47" y="0" width="0.33" height="24.5"/>
+<rect x="20.13" y="0" width="0.66" height="22.85"/>
+<rect x="21.45" y="0" width="0.66" height="22.85"/>
+<rect x="22.44" y="0" width="0.66" height="22.85"/>
+<rect x="23.43" y="0" width="0.66" height="22.85"/>
+<rect x="24.75" y="0" width="0.33" height="22.85"/>
+<rect x="26.4" y="0" width="0.33" height="22.85"/>
+<rect x="27.06" y="0" width="0.33" height="22.85"/>
+<rect x="27.72" y="0" width="0.99" height="22.85"/>
+<rect x="29.37" y="0" width="0.33" height="22.85"/>
+<rect x="30.36" y="0" width="0.99" height="22.85"/>
+<rect x="31.68" y="0" width="0.33" height="22.85"/>
+<rect x="33" y="0" width="0.33" height="22.85"/>
+<rect x="33.99" y="0" width="0.33" height="24.5"/>
+<rect x="34.65" y="0" width="0.33" height="24.5"/>
+</g>
+<g id="text" fill="#000" text-anchor="middle">
+<text x="2.145" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">5</text>
+<text x="5.775" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">9</text>
+<text x="21.285" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">1</text>
+<text x="8.085" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">0</text>
+<text x="23.595" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">2</text>
+<text x="10.395" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">1</text>
+<text x="25.905" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">3</text>
+<text x="12.705" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">2</text>
+<text x="28.215" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">4</text>
+<text x="15.015" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">3</text>
+<text x="30.525" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">5</text>
+<text x="17.325" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">4</text>
+<text x="32.835" y="25.93" font-size="3.8212" font-family="Liberation Sans, Arial, Helvetica, sans-serif">7</text>
+</g>
+</svg>
